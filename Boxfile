@@ -1,0 +1,6 @@
+web1:
+  name: iwp
+  php_extensions:
+    - curl
+    - mysql
+    - eaccelerator
