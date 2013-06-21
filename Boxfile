@@ -4,6 +4,8 @@ web1:
     - curl
     - mysql
     - eaccelerator
+  after_build:
+    - "chmod 666 config.php"
 
 db1:
   name: iwp
