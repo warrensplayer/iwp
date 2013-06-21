@@ -4,3 +4,7 @@ web1:
     - curl
     - mysql
     - eaccelerator
+
+db1:
+  name: iwp
+  type: mysql
